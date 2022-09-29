@@ -7,6 +7,7 @@ function Gallery({ data }) {
         const { name, src } = item;
         return (
           <span
+            key={index}
             style={{
               "--i": `${index + 1}`,
             }}

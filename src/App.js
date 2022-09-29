@@ -1,6 +1,6 @@
 import "./App.css";
 import Gallery from "./components/Gallery";
-
+import { useState } from "react";
 const IMAGE = [
   {
     name: "monkey D luffy",
@@ -40,7 +40,7 @@ const IMAGE = [
   },
 ];
 function App() {
-  document.title = "Tìm kiếm";
+  document.title = "One Piece";
   return (
     <div className="App">
       <Gallery data={IMAGE} />
